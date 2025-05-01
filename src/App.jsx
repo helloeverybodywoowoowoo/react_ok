@@ -4,13 +4,16 @@ import SKULL from './assets/SKULL.png'
 //import viteLogo from '/vite.svg'
 import swag_pants from '/swag_pants.jpg'
 import './App.css'
+import Profile from './components/Profile/Profile'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const size = 100
   return (
     <>
       <div>
+        <Profile size={size}/>
+        {/* count i {count} */}
         <a href="C:\Users\akins\projects\react_ok\public\swag_pants.jpg" target="_blank">
           <img src={swag_pants} className="logo" alt="Vite logo" />
         </a>

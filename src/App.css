@@ -29,7 +29,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(odd) .logo {
-    animation: logo-spin infinite .0001s linear;
+    animation: logo-spin infinite .001s linear;
   }
 }
 
