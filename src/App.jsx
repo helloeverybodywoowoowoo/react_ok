@@ -5,13 +5,19 @@ import SKULL from './assets/SKULL.png'
 import swag_pants from '/swag_pants.jpg'
 import './App.css'
 import Profile from './components/Profile/Profile'
+import Video from './components/Video/Video'
+import Menu from './components/Menu/Menu'
 
 function App() {
   const [count, setCount] = useState(0)
   const size = 100
+  // let src = put the amazon video link here
+
+
   return (
     <>
       <div>
+      <Video src={src}/>
         <Profile size={size}/>
         {/* count i {count} */}
         <a href="C:\Users\akins\projects\react_ok\public\swag_pants.jpg" target="_blank">
