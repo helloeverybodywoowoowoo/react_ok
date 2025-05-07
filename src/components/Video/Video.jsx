@@ -1,5 +1,4 @@
-function Video(){
-    let src = ""//put somethin in
+function Video({src}){
     return(
         <video controls autoplay src={src}/>
     )

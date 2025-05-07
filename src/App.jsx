@@ -14,13 +14,16 @@ function App() {
   // let src = put the amazon video link here
   let src="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-cute.mp4"
 
-
   return (
     <>
       <div>
+      <Menu/>
       <Video src={src}/>
+      <br/>
       <Profile size={size}/>
-        count is {count}
+      <br/>
+      Count is {count}
+      <br/>
         <a href="C:\Users\akins\projects\react_ok\public\swag_pants.jpg" target="_blank">
           <img src={swag_pants} className="logo" alt="Vite logo" />
         </a>
