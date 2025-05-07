@@ -12,14 +12,15 @@ function App() {
   const [count, setCount] = useState(0)
   const size = 100
   // let src = put the amazon video link here
+  let src="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-cute.mp4"
 
 
   return (
     <>
       <div>
       <Video src={src}/>
-        <Profile size={size}/>
-        {/* count i {count} */}
+      <Profile size={size}/>
+        count is {count}
         <a href="C:\Users\akins\projects\react_ok\public\swag_pants.jpg" target="_blank">
           <img src={swag_pants} className="logo" alt="Vite logo" />
         </a>
